@@ -1,20 +1,21 @@
 {
-  "name": "term-color",
+  "name": "@ngsctt/term-color",
   "version": "1.0.1",
-  "description": "A lighter weight alternative to chalk",
+  "description": "A lighter weight alternative to chalk. Forked to slim down package.",
   "keywords": [],
-  "author": "Raynos <raynos2@gmail.com>",
-  "repository": "git://github.com/Raynos/term-color.git",
+  "author": "ngsctt",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ngsctt/term-color.git"
+  },
   "main": "index",
-  "homepage": "https://github.com/Raynos/term-color",
+  "homepage": "https://github.com/ngsctt/term-color",
   "bugs": {
-    "url": "https://github.com/Raynos/term-color/issues",
-    "email": "raynos2@gmail.com"
+    "url": "https://github.com/ngsctt/term-color/issues"
   },
   "contributors": [
-    {
-      "name": "Raynos"
-    }
+    "Raynos",
+    "ngsctt"
   ],
   "dependencies": {
     "ansi-styles": "2.0.1",
@@ -27,12 +28,7 @@
     "tape": "^3.4.0",
     "uber-standard": "3.6.5"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://github.com/Raynos/term-color/raw/master/LICENSE"
-    }
-  ],
+  "license": "MIT",
   "scripts": {
     "test": "npm run jshint -s && npm run cover -s",
     "jshint": "standard -v .",
@@ -48,5 +44,10 @@
     "test"
   ],
   "pre-commit.silent": true,
-  "ngen-version": "5.1.0"
+  "ngen-version": "5.1.0",
+  "files": [
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ]
 }
