@@ -1,6 +1,6 @@
 {
   "name": "@ngsctt/term-color",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A lighter weight alternative to chalk. Forked to slim down package.",
   "keywords": [],
   "author": "ngsctt",
